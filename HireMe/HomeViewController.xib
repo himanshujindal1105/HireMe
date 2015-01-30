@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OPENSANS-REGULAR.TTF">
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="popoverLinkedIn" destination="Cs0-KZ-Ckf" id="wX7-Ou-7tA"/>
+                <outlet property="popoverSignIn" destination="IWY-OJ-bxS" id="g7R-6K-HZI"/>
+                <outlet property="popoverSignUP" destination="cZH-Od-uTX" id="EYf-Vu-giM"/>
+                <outlet property="txtFieldEmail" destination="xtZ-0P-yQ7" id="5ry-PP-WXi"/>
+                <outlet property="txtFieldPassword" destination="JMl-KP-ReT" id="Jyy-SX-QMp"/>
+                <outlet property="view" destination="lZy-8W-YNb" id="Wn0-ht-1QY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="lZy-8W-YNb">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot password?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pky-ka-f0w">
+                    <rect key="frame" x="36" y="295" width="248" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="IWY-OJ-bxS" customClass="CustomPopoverView">
+                    <rect key="frame" x="36" y="336" width="248" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+                <view contentMode="scaleToFill" id="cZH-Od-uTX" customClass="CustomPopoverView">
+                    <rect key="frame" x="36" y="383" width="248" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" background="userInput.png" id="xtZ-0P-yQ7">
+                    <rect key="frame" x="36" y="184" width="248" height="43"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="apV-2D-NqZ"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" background="passInput.png" id="JMl-KP-ReT">
+                    <rect key="frame" x="36" y="231" width="248" height="43"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="zsZ-J3-QOi"/>
+                    </connections>
+                </textField>
+                <view contentMode="scaleToFill" id="Cs0-KZ-Ckf" customClass="CustomPopoverView">
+                    <rect key="frame" x="36" y="483" width="248" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo.png" id="FHM-nz-xHc">
+                    <rect key="frame" x="96" y="36" width="129" height="115"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="or-signup.png" id="Aqf-zg-qTA">
+                    <rect key="frame" x="38" y="448" width="238" height="12"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="-333" y="338"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo.png" width="129" height="115"/>
+        <image name="or-signup.png" width="238" height="12"/>
+        <image name="passInput.png" width="248" height="43"/>
+        <image name="userInput.png" width="248" height="43"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

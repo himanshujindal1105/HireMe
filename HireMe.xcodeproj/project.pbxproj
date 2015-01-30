@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848076C21A722FBB00D7F5BE /* UIFont+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 848076C11A722FBB00D7F5BE /* UIFont+CustomFont.m */; };
+		8482DC1F1A775F06007756AE /* HireMe_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8482DC1E1A775F06007756AE /* HireMe_Info.plist */; };
+		8482DC211A77643B007756AE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8482DC201A77643B007756AE /* HomeViewController.xib */; };
+		8482DC231A7768C1007756AE /* bg_hireme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8482DC221A7768C1007756AE /* bg_hireme@2x.png */; };
+		8482DC271A777399007756AE /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8482DC261A777399007756AE /* UIColor+CustomColor.m */; };
+		8482DC291A779150007756AE /* signup-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8482DC281A779150007756AE /* signup-button.png */; };
+		8482DC2B1A779165007756AE /* signup-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8482DC2A1A779165007756AE /* signup-button@2x.png */; };
+		84BF05D21A70E7C200D26F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF05D11A70E7C200D26F54 /* main.m */; };
+		84BF05D51A70E7C200D26F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF05D41A70E7C200D26F54 /* AppDelegate.m */; };
+		84BF05D81A70E7C200D26F54 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF05D71A70E7C200D26F54 /* HomeViewController.m */; };
+		84BF05DD1A70E7C200D26F54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF05DC1A70E7C200D26F54 /* Images.xcassets */; };
+		84BF05E01A70E7C200D26F54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BF05DE1A70E7C200D26F54 /* LaunchScreen.xib */; };
+		84BF05EC1A70E7C200D26F54 /* HireMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF05EB1A70E7C200D26F54 /* HireMeTests.m */; };
+		84BF05FC1A71048400D26F54 /* bg_hireme.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BF05FB1A71048400D26F54 /* bg_hireme.png */; };
+		84BF06041A7104E600D26F54 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BF06031A7104E600D26F54 /* logo.png */; };
+		84BF06061A7104EE00D26F54 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BF06051A7104EE00D26F54 /* logo@2x.png */; };
+		84BF06081A71058400D26F54 /* or-signup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BF06071A71058400D26F54 /* or-signup@2x.png */; };
+		84BF06181A7112AB00D26F54 /* CustomPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF06171A7112AB00D26F54 /* CustomPopoverView.m */; };
+		84F514AF1A77BF2100FDEC38 /* userInput.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514AE1A77BF2100FDEC38 /* userInput.png */; };
+		84F514B11A77C00B00FDEC38 /* passInput.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514B01A77C00B00FDEC38 /* passInput.png */; };
+		84F514B31A77C01400FDEC38 /* linkedIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514B21A77C01400FDEC38 /* linkedIn.png */; };
+		84F514B51A77C05500FDEC38 /* passInput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514B41A77C05500FDEC38 /* passInput@2x.png */; };
+		84F514B71A77C06300FDEC38 /* userInput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514B61A77C06300FDEC38 /* userInput@2x.png */; };
+		84F514B91A77C07500FDEC38 /* linkedIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514B81A77C07500FDEC38 /* linkedIn@2x.png */; };
+		84F514BB1A77C1F500FDEC38 /* signIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514BA1A77C1F500FDEC38 /* signIn@2x.png */; };
+		84F514BD1A77C20F00FDEC38 /* signIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F514BC1A77C20F00FDEC38 /* signIn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BF05E61A70E7C200D26F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BF05C41A70E7C200D26F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BF05CB1A70E7C200D26F54;
+			remoteInfo = HireMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848076C01A722FBB00D7F5BE /* UIFont+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CustomFont.h"; sourceTree = "<group>"; };
+		848076C11A722FBB00D7F5BE /* UIFont+CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CustomFont.m"; sourceTree = "<group>"; };
+		848076C41A7236E100D7F5BE /* OPENSANS-REGULAR.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPENSANS-REGULAR.TTF"; sourceTree = "<group>"; };
+		848076C51A7236E100D7F5BE /* OPENSANS-SEMIBOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPENSANS-SEMIBOLD.TTF"; sourceTree = "<group>"; };
+		8482DC1E1A775F06007756AE /* HireMe_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HireMe_Info.plist; sourceTree = "<group>"; };
+		8482DC201A77643B007756AE /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8482DC221A7768C1007756AE /* bg_hireme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_hireme@2x.png"; sourceTree = "<group>"; };
+		8482DC251A777399007756AE /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		8482DC261A777399007756AE /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		8482DC281A779150007756AE /* signup-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signup-button.png"; sourceTree = "<group>"; };
+		8482DC2A1A779165007756AE /* signup-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signup-button@2x.png"; sourceTree = "<group>"; };
+		84BF05CC1A70E7C200D26F54 /* HireMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HireMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF05D11A70E7C200D26F54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BF05D31A70E7C200D26F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84BF05D41A70E7C200D26F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84BF05D61A70E7C200D26F54 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		84BF05D71A70E7C200D26F54 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		84BF05DC1A70E7C200D26F54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84BF05DF1A70E7C200D26F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84BF05E51A70E7C200D26F54 /* HireMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HireMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF05EA1A70E7C200D26F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF05EB1A70E7C200D26F54 /* HireMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HireMeTests.m; sourceTree = "<group>"; };
+		84BF05FB1A71048400D26F54 /* bg_hireme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_hireme.png; sourceTree = "<group>"; };
+		84BF06031A7104E600D26F54 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		84BF06051A7104EE00D26F54 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		84BF06071A71058400D26F54 /* or-signup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "or-signup@2x.png"; sourceTree = "<group>"; };
+		84BF06161A7112AB00D26F54 /* CustomPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopoverView.h; sourceTree = "<group>"; };
+		84BF06171A7112AB00D26F54 /* CustomPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopoverView.m; sourceTree = "<group>"; };
+		84BF06191A71132800D26F54 /* HireMe_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HireMe_Prefix.pch; sourceTree = "<group>"; };
+		84F514AE1A77BF2100FDEC38 /* userInput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userInput.png; sourceTree = "<group>"; };
+		84F514B01A77C00B00FDEC38 /* passInput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passInput.png; sourceTree = "<group>"; };
+		84F514B21A77C01400FDEC38 /* linkedIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedIn.png; sourceTree = "<group>"; };
+		84F514B41A77C05500FDEC38 /* passInput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passInput@2x.png"; sourceTree = "<group>"; };
+		84F514B61A77C06300FDEC38 /* userInput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userInput@2x.png"; sourceTree = "<group>"; };
+		84F514B81A77C07500FDEC38 /* linkedIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedIn@2x.png"; sourceTree = "<group>"; };
+		84F514BA1A77C1F500FDEC38 /* signIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn@2x.png"; sourceTree = "<group>"; };
+		84F514BC1A77C20F00FDEC38 /* signIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signIn.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BF05C91A70E7C200D26F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF05E21A70E7C200D26F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848076B51A72289D00D7F5BE /* FontUtilitis */ = {
+			isa = PBXGroup;
+			children = (
+				848076C01A722FBB00D7F5BE /* UIFont+CustomFont.h */,
+				848076C11A722FBB00D7F5BE /* UIFont+CustomFont.m */,
+			);
+			name = FontUtilitis;
+			sourceTree = "<group>";
+		};
+		848076C31A72365000D7F5BE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				848076C41A7236E100D7F5BE /* OPENSANS-REGULAR.TTF */,
+				848076C51A7236E100D7F5BE /* OPENSANS-SEMIBOLD.TTF */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		8482DC241A77735A007756AE /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				8482DC251A777399007756AE /* UIColor+CustomColor.h */,
+				8482DC261A777399007756AE /* UIColor+CustomColor.m */,
+			);
+			name = Colors;
+			sourceTree = "<group>";
+		};
+		84BF05C31A70E7C200D26F54 = {
+			isa = PBXGroup;
+			children = (
+				84BF05CE1A70E7C200D26F54 /* HireMe */,
+				84BF05E81A70E7C200D26F54 /* HireMeTests */,
+				84BF05CD1A70E7C200D26F54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BF05CD1A70E7C200D26F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BF05CC1A70E7C200D26F54 /* HireMe.app */,
+				84BF05E51A70E7C200D26F54 /* HireMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BF05CE1A70E7C200D26F54 /* HireMe */ = {
+			isa = PBXGroup;
+			children = (
+				84BF05F51A70F6C200D26F54 /* Assets */,
+				84BF05D31A70E7C200D26F54 /* AppDelegate.h */,
+				84BF05D41A70E7C200D26F54 /* AppDelegate.m */,
+				84BF05D61A70E7C200D26F54 /* HomeViewController.h */,
+				84BF05D71A70E7C200D26F54 /* HomeViewController.m */,
+				8482DC201A77643B007756AE /* HomeViewController.xib */,
+				84BF05DC1A70E7C200D26F54 /* Images.xcassets */,
+				84BF05DE1A70E7C200D26F54 /* LaunchScreen.xib */,
+				84BF05CF1A70E7C200D26F54 /* Supporting Files */,
+				84BF06191A71132800D26F54 /* HireMe_Prefix.pch */,
+			);
+			path = HireMe;
+			sourceTree = "<group>";
+		};
+		84BF05CF1A70E7C200D26F54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8482DC1E1A775F06007756AE /* HireMe_Info.plist */,
+				84BF05D11A70E7C200D26F54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BF05E81A70E7C200D26F54 /* HireMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BF05EB1A70E7C200D26F54 /* HireMeTests.m */,
+				84BF05E91A70E7C200D26F54 /* Supporting Files */,
+			);
+			path = HireMeTests;
+			sourceTree = "<group>";
+		};
+		84BF05E91A70E7C200D26F54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BF05EA1A70E7C200D26F54 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BF05F51A70F6C200D26F54 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8482DC241A77735A007756AE /* Colors */,
+				848076C31A72365000D7F5BE /* Font */,
+				848076B51A72289D00D7F5BE /* FontUtilitis */,
+				84BF06151A71126800D26F54 /* Widget */,
+				84BF05F61A70F6DF00D26F54 /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		84BF05F61A70F6DF00D26F54 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84BF05F81A71040300D26F54 /* Non-Retina */,
+				84BF05F71A7103F700D26F54 /* Retina */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		84BF05F71A7103F700D26F54 /* Retina */ = {
+			isa = PBXGroup;
+			children = (
+				8482DC221A7768C1007756AE /* bg_hireme@2x.png */,
+				84BF05FA1A71042800D26F54 /* SignIn */,
+			);
+			name = Retina;
+			sourceTree = "<group>";
+		};
+		84BF05F81A71040300D26F54 /* Non-Retina */ = {
+			isa = PBXGroup;
+			children = (
+				84BF05FB1A71048400D26F54 /* bg_hireme.png */,
+				84BF05F91A71041900D26F54 /* SignIn */,
+			);
+			name = "Non-Retina";
+			sourceTree = "<group>";
+		};
+		84BF05F91A71041900D26F54 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				84F514BC1A77C20F00FDEC38 /* signIn.png */,
+				84F514B21A77C01400FDEC38 /* linkedIn.png */,
+				84F514B01A77C00B00FDEC38 /* passInput.png */,
+				84F514AE1A77BF2100FDEC38 /* userInput.png */,
+				8482DC281A779150007756AE /* signup-button.png */,
+				84BF06031A7104E600D26F54 /* logo.png */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		84BF05FA1A71042800D26F54 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				84F514BA1A77C1F500FDEC38 /* signIn@2x.png */,
+				84F514B81A77C07500FDEC38 /* linkedIn@2x.png */,
+				84F514B41A77C05500FDEC38 /* passInput@2x.png */,
+				84F514B61A77C06300FDEC38 /* userInput@2x.png */,
+				8482DC2A1A779165007756AE /* signup-button@2x.png */,
+				84BF06071A71058400D26F54 /* or-signup@2x.png */,
+				84BF06051A7104EE00D26F54 /* logo@2x.png */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		84BF06151A71126800D26F54 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				84BF06161A7112AB00D26F54 /* CustomPopoverView.h */,
+				84BF06171A7112AB00D26F54 /* CustomPopoverView.m */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BF05CB1A70E7C200D26F54 /* HireMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF05EF1A70E7C200D26F54 /* Build configuration list for PBXNativeTarget "HireMe" */;
+			buildPhases = (
+				84BF05C81A70E7C200D26F54 /* Sources */,
+				84BF05C91A70E7C200D26F54 /* Frameworks */,
+				84BF05CA1A70E7C200D26F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HireMe;
+			productName = HireMe;
+			productReference = 84BF05CC1A70E7C200D26F54 /* HireMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BF05E41A70E7C200D26F54 /* HireMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF05F21A70E7C200D26F54 /* Build configuration list for PBXNativeTarget "HireMeTests" */;
+			buildPhases = (
+				84BF05E11A70E7C200D26F54 /* Sources */,
+				84BF05E21A70E7C200D26F54 /* Frameworks */,
+				84BF05E31A70E7C200D26F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BF05E71A70E7C200D26F54 /* PBXTargetDependency */,
+			);
+			name = HireMeTests;
+			productName = HireMeTests;
+			productReference = 84BF05E51A70E7C200D26F54 /* HireMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BF05C41A70E7C200D26F54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = HireMe;
+				TargetAttributes = {
+					84BF05CB1A70E7C200D26F54 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					84BF05E41A70E7C200D26F54 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 84BF05CB1A70E7C200D26F54;
+					};
+				};
+			};
+			buildConfigurationList = 84BF05C71A70E7C200D26F54 /* Build configuration list for PBXProject "HireMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BF05C31A70E7C200D26F54;
+			productRefGroup = 84BF05CD1A70E7C200D26F54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BF05CB1A70E7C200D26F54 /* HireMe */,
+				84BF05E41A70E7C200D26F54 /* HireMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BF05CA1A70E7C200D26F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F514B91A77C07500FDEC38 /* linkedIn@2x.png in Resources */,
+				84F514B11A77C00B00FDEC38 /* passInput.png in Resources */,
+				8482DC231A7768C1007756AE /* bg_hireme@2x.png in Resources */,
+				8482DC291A779150007756AE /* signup-button.png in Resources */,
+				84F514BB1A77C1F500FDEC38 /* signIn@2x.png in Resources */,
+				84BF05E01A70E7C200D26F54 /* LaunchScreen.xib in Resources */,
+				84BF05FC1A71048400D26F54 /* bg_hireme.png in Resources */,
+				8482DC1F1A775F06007756AE /* HireMe_Info.plist in Resources */,
+				84F514B71A77C06300FDEC38 /* userInput@2x.png in Resources */,
+				8482DC2B1A779165007756AE /* signup-button@2x.png in Resources */,
+				84F514BD1A77C20F00FDEC38 /* signIn.png in Resources */,
+				84BF06041A7104E600D26F54 /* logo.png in Resources */,
+				84F514B51A77C05500FDEC38 /* passInput@2x.png in Resources */,
+				84BF05DD1A70E7C200D26F54 /* Images.xcassets in Resources */,
+				84BF06081A71058400D26F54 /* or-signup@2x.png in Resources */,
+				84BF06061A7104EE00D26F54 /* logo@2x.png in Resources */,
+				84F514B31A77C01400FDEC38 /* linkedIn.png in Resources */,
+				84F514AF1A77BF2100FDEC38 /* userInput.png in Resources */,
+				8482DC211A77643B007756AE /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF05E31A70E7C200D26F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BF05C81A70E7C200D26F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF05D81A70E7C200D26F54 /* HomeViewController.m in Sources */,
+				84BF06181A7112AB00D26F54 /* CustomPopoverView.m in Sources */,
+				84BF05D51A70E7C200D26F54 /* AppDelegate.m in Sources */,
+				848076C21A722FBB00D7F5BE /* UIFont+CustomFont.m in Sources */,
+				8482DC271A777399007756AE /* UIColor+CustomColor.m in Sources */,
+				84BF05D21A70E7C200D26F54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF05E11A70E7C200D26F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF05EC1A70E7C200D26F54 /* HireMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BF05E71A70E7C200D26F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BF05CB1A70E7C200D26F54 /* HireMe */;
+			targetProxy = 84BF05E61A70E7C200D26F54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BF05DE1A70E7C200D26F54 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BF05DF1A70E7C200D26F54 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BF05ED1A70E7C200D26F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BF05EE1A70E7C200D26F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BF05F01A70E7C200D26F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HireMe/HireMe_Prefix.pch;
+				INFOPLIST_FILE = HireMe/HireMe_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84BF05F11A70E7C200D26F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HireMe/HireMe_Prefix.pch;
+				INFOPLIST_FILE = HireMe/HireMe_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84BF05F31A70E7C200D26F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HireMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HireMe.app/HireMe";
+			};
+			name = Debug;
+		};
+		84BF05F41A70E7C200D26F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HireMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HireMe.app/HireMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BF05C71A70E7C200D26F54 /* Build configuration list for PBXProject "HireMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF05ED1A70E7C200D26F54 /* Debug */,
+				84BF05EE1A70E7C200D26F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF05EF1A70E7C200D26F54 /* Build configuration list for PBXNativeTarget "HireMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF05F01A70E7C200D26F54 /* Debug */,
+				84BF05F11A70E7C200D26F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF05F21A70E7C200D26F54 /* Build configuration list for PBXNativeTarget "HireMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF05F31A70E7C200D26F54 /* Debug */,
+				84BF05F41A70E7C200D26F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BF05C41A70E7C200D26F54 /* Project object */;
+}
